@@ -5,12 +5,6 @@ class Program
     static void Main(string[] args)
     {
 
-        System.Console.WriteLine(MergeAlternately("abc", "123"));
-
-
-
-
-
 
     }
     // 1768. Merge Strings Alternatively - 00:07:10
@@ -35,28 +29,53 @@ class Program
 
         return result;
     }
-    
+
     // 1431. Kids With the Greatest Number of Candies - 00:27:07
-    public IList<bool> KidsWithCandies(int[] candies, int extraCandies) {
+    public IList<bool> KidsWithCandies(int[] candies, int extraCandies)
+    {
         bool[] result = new bool[candies.Length];
         int mostCandies = 0;
 
-        for (int i = 0; i < candies.Length; i++) {
-            if (candies[i] > mostCandies) {
+        for (int i = 0; i < candies.Length; i++)
+        {
+            if (candies[i] > mostCandies)
+            {
                 mostCandies = candies[i];
-            } else {
+            }
+            else
+            {
                 mostCandies = mostCandies;
             }
         }
 
-        for (int i = 0; i < candies.Length; i++) {
-            if (candies[i] + extraCandies >= mostCandies) {
+        for (int i = 0; i < candies.Length; i++)
+        {
+            if (candies[i] + extraCandies >= mostCandies)
+            {
                 result[i] = true;
-            } else {
+            }
+            else
+            {
                 result[i] = false;
             }
         }
 
         return result;
+    }
+}
+
+    // 268. Missing Number
+    public class Solution {
+    public int MissingNumber(int[] nums) {
+        int n = nums.Length;
+        int missingNum;
+
+        for (int i = 0; i <= n; i++) {
+            if (!nums.Contains(i)) {
+                return i;
+            }
+        }
+
+    return -1;
     }
 }
