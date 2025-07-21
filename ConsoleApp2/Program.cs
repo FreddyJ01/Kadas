@@ -64,7 +64,7 @@ class Program
     }
 }
 
-    // 268. Missing Number
+    // 268. Missing Number - 00:32:08
     public class Solution {
     public int MissingNumber(int[] nums) {
         int n = nums.Length;
