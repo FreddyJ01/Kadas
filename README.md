@@ -12,7 +12,7 @@ This repository is dedicated to tracking my daily solutions to the [LeetCode 75]
 
 - Each day's solution is committed with the problem number, name, and timestamp.
 - Solutions are written in **C#** and organized in simple console applications.
-- The `ConsoleApp2/Program.cs` file contains implementations and comments for each solved problem.
+- The `LeetCodes` file contains implementations and comments for each solved problem.
 
 ## Example
 
@@ -29,21 +29,10 @@ public IList<bool> KidsWithCandies(int[] candies, int extraCandies)
     // Implementation
 }
 ```
-
-## How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/FreddyJ01/Kanas.git
-   ```
-2. Open the solution in your preferred IDE (e.g., Visual Studio).
-3. Browse the `ConsoleApp2/Program.cs` file for daily solutions and comments.
-
 ## Progress
-
-Check the commits for daily updates and timestamps for each problem solved.
-
-
+    1071. Greatest Common Divisor of Strings - 01:35:58
+    1431. Kids With the Greatest Number of Candies - 00:27:07
+    1768. Merge Strings Alternatively - 00:07:10
+    268. Missing Number - 00:32:08
+    217. Contains Duplicate - 00:55:25
 ---
-
-Happy coding!
