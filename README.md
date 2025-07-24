@@ -30,6 +30,7 @@ public IList<bool> KidsWithCandies(int[] candies, int extraCandies)
 }
 ```
 ## Progress
+    70. Climbing Stairs - 00:45:27
     1071. Greatest Common Divisor of Strings - 01:35:58
     1431. Kids With the Greatest Number of Candies - 00:27:07
     1768. Merge Strings Alternatively - 00:07:10
