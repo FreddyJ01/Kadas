@@ -1,4 +1,4 @@
-# LeetCode 75 Daily Progress Tracker
+# 📝 LeetCode 75 Daily Progress Tracker
 
 This repository is dedicated to tracking my daily solutions to the [LeetCode 75](https://leetcode.com/study-plan/leetcode-75/) problems. My goal is to improve my problem-solving skills and maintain consistency in practicing coding interview questions.
 
